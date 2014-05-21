@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+
+/**
+ * Setup
+ */
+@import "vars";
+@import "bower_components/inuit.css/inuit";
+@import "typography";
+
+
+/**
+ * She’s all yours, cap’n... Begin importing your stuff here.
+ */
+//@import "ui/example";
+
+.demo-block{
+    padding:0.5em;
+    background-color:#4a8ec2;
+    color:#fff;
+    border-radius:4px;
+}
+
+.foo {
+    background-color:#4a8ec2;
+    color:#fff;
+}
+
+.foo a{
+    background-color:#4a8ec2;
+    color:#fff;
+    border-left:1px solid #fff;
+}
+.foo li:first-child a{
+    border-left:none;
+}

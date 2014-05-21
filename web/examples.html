@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+
+    <title>Web Typography Example</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Arvo|PT+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <main>
+
+    <h1>Web Typography Examples</h1>
+
+    <nav>
+      <ol>
+
+        <li>Main
+          <ol>
+            <li><a href="#Headings">Headings</a></li>
+            <li><a href="#Span">Span Elements</a></li>
+            <li><a href="#Lists">Lists</a></li>
+            <li><a href="#Components">Components</a></li>
+            <li><a href="#Code">Code</a></li>
+            <li><a href="#Tables">Tables</a></li>
+            <li><a href="#Structural">Structural</a></li>
+            <li><a href="#Forms">Forms</a></li>
+            <li><a href="#Text">Text</a></li>
+          </ol>
+        </li>
+
+        <li><a href="#Inuit">Inuit</a></li>
+        <li><a href="#MDN">MDN</a></li>
+        <li><a href="#Zimit">zimit</a> </li>
+
+      </ol>
+    </nav>
+
+    <a href="http://www.yelp.com/styleguide">http://www.yelp.com/styleguide</a>
+    <a href="http://firezenk.github.io/zimit/components.html">http://firezenk.github.io/zimit/components.html</a>
+
+    <h2>Headings</h2>
+
+    <h1>h1. Bootstrap heading</h1>
+    <h2>h2. Bootstrap heading</h2>
+    <h3>h3. Bootstrap heading</h3>
+    <h4>h4. Bootstrap heading</h4>
+    <h5>h5. Bootstrap heading</h5>
+    <h6>h6. Bootstrap heading</h6>
+
+    <h1>This is a really long title that will hopefully spill on to two or more lines to see if the line spacing of titles is good</h1>
+    <h2>This is a really long title that will hopefully spill on to two or more lines to see if the line spacing of titles is good</h2>
+    <h3>This is a really long title that will hopefully spill on to two or more lines to see if the line spacing of titles is good</h3>
+
+    <h2>Span Elements</h2>
+
+    <dl>
+      <dt>a</dt>
+      <dd>
+        <a href="http://www.mozilla.com/">External Link</a>
+      </dd>
+      <dt>abbr</dt>
+      <dd>
+        Tony Blair is the prime minister of the <abbr title="United Kingdom">UK</abbr>
+      </dd>
+      <dt>del</dt>
+      <dd>
+        <del>This text has been deleted</del>
+      </dd>
+      <dt>mark</dt>
+      <dd>
+        The &lt;mark&gt; element is used to <mark>highlight</mark> text.
+      </dd>
+      <dt>ins</dt>
+      <dd>
+        <ins>This text has been inserted</ins>
+      </dd>
+      <dt>kbd</dt>
+      <dd>
+        <p>Type the following in the Run dialog: <kbd>cmd</kbd> then click the OK button.</p>
+      </dd>
+      <dt>i</dt>
+      <dd>
+        The Latin phrase <i>Veni, vidi, vici</i> is often mentioned in music, art, and literature
+      </dd>
+      <dt>em</dt>
+      <dd>
+        In HTML 5, what was previously called <em>block-level</em> content is now called <em>flow</em> content.
+      </dd>
+      <dt>cite</dt>
+      <dd>
+        More information can be found in <cite>[ISO-0000]</cite>
+      </dd>
+      <dt>code</dt>
+      <dd>
+        Regular text. <code>This is code.</code> Regular text.
+      </dd>
+      <dt>b</dt>
+      <dd>
+        This article describes several <b>text-level</b> elements. It explains their usage in an <b>HTML</b> document.
+      </dd>
+      <dt>bdo</dt>
+      <dd>
+        <bdo dir="rtl">This text will go right to left.</bdo>
+      </dd>
+      <dt>bdi</dt>
+      <dd>
+        <p dir="ltr">This arabic word <bdi>ARABIC_PLACEHOLDER</bdi> is automatically displayed right-to-left.</p>
+      </dd>
+      <dt>meter</dt>
+      <dd>
+        Heat the oven to <meter min="200" max="500" value="350">350 degrees</meter>.
+      </dd>
+      <dt>small</dt>
+      <dd>
+        This is the first sentence.  <small>This whole sentence is in small letters.</small>
+      </dd>
+      <dt>strong</dt>
+      <dd>
+        When doing x it is <strong>imperative</strong> to do y before proceeding.
+      </dd>
+      <dt>sub</dt>
+      <dd>
+        The chemical formula of water is H<sub>2</sub>O
+      </dd>
+      <dt>sup</dt>
+      <dd>
+        This text is <sup>superscripted</sup>
+      </dd>
+      <dt>time</dt>
+      <dd>
+        The concert starts at <time>20:00</time>, took place on <time datetime="2001-05-15 19:00">May 15</time>.
+      </dd>
+      <dt>u</dt>
+      <dd>
+        <u>Today's Special</u>: Salmon
+      </dd>
+      <dt>var</dt>
+      <dd>
+        A simple equation: <var>x</var> = <var>y</var> + 2
+      </dd>
+      <dt>wbr</dt>
+      <dd>
+        http://this<wbr>.is<wbr>.a<wbr>.really<wbr>.long<wbr>.example<wbr>.com/With<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages<wbr>/deeper<wbr>/level<wbr>/pages
+      </dd>
+    </dl>
+
+    <p>
+      Mozilla Foundation<br>
+      1981 Landings Drive<br>
+      Building K<br>
+      Mountain View, CA 94043-0801<br>
+      USA
+    </p>
+
+    <h2>Lists</h2>
+
+    <ol>
+      <li>first item</li>
+      <li>second item
+        <ol>
+          <li>second item first subitem</li>
+          <li>second item second subitem</li>
+          <li>second item third subitem</li>
+        </ol>
+      </li>
+      <li>third item</li>
+    </ol>
+
+    <ul>
+      <li>first item</li>
+      <li>second item
+        <ul>
+          <li>second item first subitem</li>
+          <li>second item second subitem
+            <ul>
+              <li>second item second subitem first sub-subitem</li>
+              <li>second item second subitem second sub-subitem</li>
+              <li>second item second subitem third sub-subitem</li>
+            </ul>
+          </li>
+          <li>second item third subitem</li>
+        </ul>
+      </li>
+      <li>third item</li>
+    </ul>
+
+    <dl>
+      <dt>Firefox</dt>
+      <dd>A free, open source, cross-platform, graphical web browser
+          developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+
+      <dt>Other</dt>
+      <dd>A free, open source, cross-platform, graphical web browser
+          developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+
+      <dt>Third</dt>
+      <dd>A free, open source, cross-platform, graphical web browser
+          developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+
+      <dt>Firefox</dt>
+      <dt>Mozilla Firefox</dt>
+      <dt>Fx</dt>
+      <dd>A free, open source, cross-platform, graphical web browser
+          developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+
+      <dt>Firefox</dt>
+      <dd>A free, open source, cross-platform, graphical web browser
+          developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+      <dd>The Red Panda also known as the Lesser Panda, Wah, Bear Cat or Firefox,
+          is a mostly herbivorous mammal, slightly larger than a domestic cat
+          (60 cm long).</dd>
+
+    </dl>
+
+    <ul>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Consectetur adipiscing elit</li>
+      <li>Integer molestie lorem at massa</li>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit
+        <ul>
+          <li>Phasellus iaculis neque</li>
+          <li>Purus sodales ultricies</li>
+          <li>Vestibulum laoreet porttitor sem</li>
+          <li>Ac tristique libero volutpat at</li>
+        </ul>
+      </li>
+      <li>Faucibus porta lacus fringilla vel</li>
+      <li>Aenean sit amet erat nunc</li>
+      <li>Eget porttitor lorem</li>
+    </ul>
+
+    <ol>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Consectetur adipiscing elit</li>
+      <li>Integer molestie lorem at massa</li>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit</li>
+      <li>Faucibus porta lacus fringilla vel</li>
+      <li>Aenean sit amet erat nunc</li>
+      <li>Eget porttitor lorem</li>
+    </ol>
+
+    <dl>
+      <dt>Description lists</dt>
+      <dd>A description list is perfect for defining terms.</dd>
+      <dt>Euismod</dt>
+      <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+      <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+      <dt>Malesuada porta</dt>
+      <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+    </dl>
+
+    <h2>Components</h2>
+
+    <address>
+      You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+      If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
+      You may also want to visit us:<br>
+      Mozilla Foundation<br>
+      1981 Landings Drive<br>
+      Building K<br>
+      Mountain View, CA 94043-0801<br>
+      USA
+    </address>
+
+    <address>
+      <strong>Twitter, Inc.</strong><br>
+      795 Folsom Ave, Suite 600<br>
+      San Francisco, CA 94107<br>
+      <abbr title="Phone">P:</abbr> (123) 456-7890
+    </address>
+
+    <blockquote cite="http://developer.mozilla.org">
+      <p>This is a quotation taken from the Mozilla Developer Center.</p>
+    </blockquote>
+
+    <blockquote>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    </blockquote>
+
+    <blockquote>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+    </blockquote>
+
+    <h2>Code</h2>
+
+    <pre>if(!Array.isArray) {
+  Array.isArray = function (vArg) {
+    var toString = Object.prototype.toString;
+    return toString.call(vArg) === "[object Array]";
+  };
+}</pre>
+
+    <h2>Tables</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Forms</h2>
+
+    <h3>Buttons</h3>
+
+    <dl>
+      <dt>input</dt>
+      <dd><input type="button" value="button"></dd>
+
+      <dt>button</dt>
+      <dd><button type="button">button</button></dd>
+
+      <dt>disabled</dt>
+      <dd><button type="button" disabled="disabled">disabled</button></dd>
+
+      <dt></dt>
+      <dd></dd>
+    </dl>
+
+    <h3>Text Inputs</h3>
+
+    <dl>
+      <dt>text</dt>
+      <dd><input type="text"></dd>
+
+      <dt>value</dt>
+      <dd><input type="text" value="hello"></dd>
+
+      <dt>disabled</dt>
+      <dd><input type="text" disabled></dd>
+
+      <dt>maxlength (<code>5</code>)</dt>
+      <dd><input type="text" maxlength=5></dd>
+
+      <dt>pattern (<code>a*b*</code>)</dt>
+      <dd><input type="text" pattern="a*b*"></dd>
+
+      <dt>placeholder</dt>
+      <dd><input type="text" placeholder="placeholder"></dd>
+
+      <dt>readonly</dt>
+      <dd><input type="text" readonly></dd>
+
+      <dt>required</dt>
+      <dd><input type="text" required></dd>
+
+      <dt>spellcheck</dt>
+      <dd><input type="text" spellcheck=true></dd>
+    </dl>
+
+    <h3>All Inputs</h3>
+
+    <dl>
+      <dt>button</dt>
+      <dd><input type="button" value="button"></dd>
+      <dt>checkbox</dt>
+      <dd><input type="checkbox"></dd>
+      <dt>color</dt>
+      <dd><input type="color"></dd>
+      <dt>date</dt>
+      <dd><input type="date"></dd>
+      <dt>datetime</dt>
+      <dd><input type="datetime"></dd>
+      <dt>datetime-local</dt>
+      <dd><input type="datetime-local"></dd>
+      <dt>email</dt>
+      <dd><input type="email"></dd>
+      <dt>file</dt>
+      <dd><input type="file"></dd>
+      <dt>hidden</dt>
+      <dd><input type="hidden"></dd>
+      <dt>image</dt>
+      <dd><input type="image"></dd>
+      <dt>month</dt>
+      <dd><input type="month"></dd>
+      <dt>number</dt>
+      <dd><input type="number"></dd>
+      <dt>password</dt>
+      <dd><input type="password"></dd>
+      <dt>radio</dt>
+      <dd><input type="radio"></dd>
+      <dt>range</dt>
+      <dd><input type="range"></dd>
+      <dt>reset</dt>
+      <dd><input type="reset"></dd>
+      <dt>search</dt>
+      <dd><input type="search"></dd>
+      <dt>submit</dt>
+      <dd><input type="submit"></dd>
+      <dt>tel</dt>
+      <dd><input type="tel"></dd>
+      <dt>text</dt>
+      <dd><input type="text"></dd>
+      <dt>time</dt>
+      <dd><input type="time"></dd>
+      <dt>url</dt>
+      <dd><input type="url"></dd>
+      <dt>week</dt>
+      <dd><input type="week"></dd>
+      <dt>textarea</dt>
+      <dd>
+        <textarea cols="19" rows="2">Sample text...</textarea>
+      </dd>
+      <dt>datalist</dt>
+      <dd>
+        <input list="browsers">
+
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          </option><option value="Firefox">
+          </option><option value="Chrome">
+          </option><option value="Opera">
+          </option><option value="Safari">
+        </option></datalist>
+      </dd>
+      <dt>select</dt>
+      <dd>
+        <select>
+          <option selected="" value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+        </select>
+      </dd>
+
+      <dt>optgroup</dt>
+      <dd>
+        <select>
+          <optgroup label="Group 1">
+            <option>Option 1.1</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option>Option 2.1</option>
+            <option>Option 2.2</option>
+          </optgroup>
+          <optgroup label="Group 3" disabled>
+            <option>Option 3.1</option>
+            <option>Option 3.2</option>
+            <option>Option 3.3</option>
+          </optgroup>
+        </select>
+      </dd>
+
+      <dt>label</dt>
+      <dd>
+        <label>Click me <input type="text" id="User" name="Name" /></label>
+      </dd>
+
+      <dt>keygen</dt>
+      <dd><keygen name="security"></keygen> </dd>
+
+      <dt>fieldset/legend</dt>
+      <dd>
+        <form>
+          <fieldset>
+            <legend>Personalia:</legend>
+            Name: <input type="text" size="30"><br>
+            Email: <input type="text" size="30"><br>
+            Date of birth: <input type="text" size="10">
+          </fieldset>
+        </form>
+      </dd>
+
+      <dt>output</dt>
+      <dd>
+        <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+          <input type="range" name="b" value="50" /> +
+          <input type="number" name="a" value="10" /> =
+          <output name="result"></output>
+        </form>
+      </dd>
+
+    <dl>
+
+
+    <h2>Lots of Text</h2>
+
+    <p>
+      Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <em>rendered as italicized text</em> Nullam id dolor id nibh ultricies vehicula.
+    </p>
+
+    <p>
+      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. <strong>rendered as bold text</strong> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+    </p>
+
+    <hr>
+
+    <p>
+      Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. <small>This line of text is meant to be treated as fine print.</small> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+    </p>
+
+    <p>
+      You don't know about me without you have read a book by the name of The Adventures of Tom Sawyer; but that ain't no matter.  That book was made by Mr. Mark Twain, and he told the truth, mainly.  There was things which he stretched, but mainly he told the truth.  That is nothing.  I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.  Aunt Polly—Tom's Aunt Polly, she is—and Mary, and the Widow Douglas is all told about in that book, which is mostly a true book, with some stretchers, as I said before.
+    </p>
+    <img src="http://placekitten.com/300/200" alt="" class="img--right  img--short">
+    <p>
+      Now the way that the book winds up is this:  Tom and me found the money that the robbers hid in the cave, and it made us rich.  We got six thousand dollars apiece—all gold.  It was an awful sight of money when it was piled up.  Well, Judge Thatcher he took it and put it out at interest, and it fetched us a dollar a day apiece all the year round—more than a body could tell what to do with.  The Widow Douglas she took me for her son, and allowed she would sivilize me; but it was rough living in the house all the time, considering how dismal regular and decent the widow was in all her ways; and so when I couldn't stand it no longer I lit out.  I got into my old rags and my sugar-hogshead again, and was free and satisfied.  But Tom Sawyer he hunted me up and said he was going to start a band of robbers, and I might join if I would go back to the widow and be respectable.  So I went back.
+    </p>
+    <p>
+      The widow she cried over me, and called me a poor lost lamb, and she called me a lot of other names, too, but she never meant no harm by it. She put me in them new clothes again, and I couldn't do nothing but sweat and sweat, and feel all cramped up.  Well, then, the old thing commenced again.  The widow rung a bell for supper, and you had to come to time. When you got to the table you couldn't go right to eating, but you had to wait for the widow to tuck down her head and grumble a little over the victuals, though there warn't really anything the matter with them,—that is, nothing only everything was cooked by itself.  In a barrel of odds and ends it is different; things get mixed up, and the juice kind of swaps around, and the things go better.</p>
+    <p>
+      After supper she got out her book and learned me about Moses and the Bulrushers, and I was in a sweat to find out all about him; but by and by she let it out that Moses had been dead a considerable long time; so then I didn't care no more about him, because I don't take no stock in dead people.
+    </p>
+    <img src="http://placekitten.com/400/300" alt="" class="img--left  img--medium">
+    <p>
+      Pretty soon I wanted to smoke, and asked the widow to let me. &nbsp;But she wouldn't. &nbsp;She said it was a mean practice and wasn't clean, and I must try to not do it any more. &nbsp;That is just the way with some people. &nbsp;They get down on a thing when they don't know nothing about it. &nbsp;Here she was a-bothering about Moses, which was no kin to her, and no use to anybody, being gone, you see, yet finding a power of fault with me for doing a thing that had some good in it. &nbsp;And she took snuff, too; of course that was all right, because she done it herself.
+    </p>
+    <p>
+      Her sister, Miss Watson, a tolerable slim old maid, with goggles on, had just come to live with her, and took a set at me now with a spelling-book. She worked me middling hard for about an hour, and then the widow made her ease up. &nbsp;I couldn't stood it much longer. &nbsp;Then for an hour it was deadly dull, and I was fidgety. &nbsp;Miss Watson would say, "Don't put your feet up there, Huckleberry;" and "Don't scrunch up like that, Huckleberry—set up straight;" and pretty soon she would say, "Don't gap and stretch like that, Huckleberry—why don't you try to behave?" &nbsp;Then she told me all about the bad place, and I said I wished I was there. She got mad then, but I didn't mean no harm. &nbsp;All I wanted was to go somewheres; all I wanted was a change, I warn't particular. &nbsp;She said it was wicked to say what I said; said she wouldn't say it for the whole world; she was going to live so as to go to the good place. &nbsp;Well, I couldn't see no advantage in going where she was going, so I made up my mind I wouldn't try for it. &nbsp;But I never said so, because it would only make trouble, and wouldn't do no good.
+    </p>
+    <img src="http://placekitten.com/404/303" alt="" class="img--center  img--medium">
+    <p>
+      Now she had got a start, and she went on and told me all about the good place. &nbsp;She said all a body would have to do there was to go around all day long with a harp and sing, forever and ever. &nbsp;So I didn't think much of it. But I never said so. &nbsp;I asked her if she reckoned Tom Sawyer would go there, and she said not by a considerable sight. &nbsp;I was glad about that, because I wanted him and me to be together.
+    </p>
+
+
+    <h1 id="Inuit">Inuit Css</h1>
+
+    <p>
+      Taken from <a href="http://jsfiddle.net/user/inuitcss/fiddles/">http://jsfiddle.net/user/inuitcss/fiddles/</a>.
+    </p>
+
+
+    <h2>Images</h2>
+
+    <img src="http://placekitten.com/300/200" alt="" class="img--right  img--short  img--round">
+    <img src="http://placekitten.com/300/200" alt="" class="img--left  img--medium">
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+    <img src="http://placekitten.com/300/200" alt="" class="img--center  img--medium">
+
+    <h2>Marginalia object</h2>
+
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+
+    <div class="marginalia">
+        <p class="marginalia__body--right  desk-one-fifth">This is some marginalia content.</p>
+    </div>
+
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+
+    <h2>Responsive Grids</h2>
+
+    <div class="grid">
+
+      <div class="grid__item  one-whole">
+          <p class=demo-block>Foo</p>
+      </div class="support tag close">
+
+      <div class="grid__item  one-third  lap-one-third  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-third  lap-two-thirds  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-third  lap-one-half  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-quarter  lap-one-half  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-quarter  lap-one-half  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-half  lap-one-half  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-third  lap-one-half  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-third  lap-one-half  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-third  lap-one-half  palm-one-whole">
+          <p class=demo-block>Foo</p>
+      </div>
+
+      <div class="grid__item  one-whole  lap-one-half">
+          <p class=demo-block>Foo</p>
+      </div>
+
+    </div>
+
+    <h2>Horizontal rules</h2>
+
+    <hr>
+
+    <p>Foo bar baz</p>
+
+    <hr class=rule>
+
+    <p>Foo bar baz</p>
+
+    <hr class="rule  rule--dotted">
+
+    <ul>
+        <li>Foo bar baz</li>
+        <li>Bar baz foo</li>
+        <li>Baz foo bar</li>
+    </ul>
+
+    <hr class="rule  rule--dashed">
+
+    <ul>
+      <li>Foo bar baz ...</li>
+    </ul>
+
+    <h2>Options Nav</h2>
+
+    <ul class="nav  options  foo">
+        <li><a href=#>Ignore</a></li><!--
+     --><li class=current><a href=#>Read</a></li><!--
+     --><li><a href=#>Delete</a></li>
+    </ul>
+
+    <ul class="nav  nav--fit  options  foo">
+        <li class=one-third><a href=#>Ignore</a></li><!--
+     --><li class="current  one-third"><a href=#>Read</a></li><!--
+     --><li><a href=#>Delete</a></li>
+    </ul>
+
+    <h2>Breadcrumbs</h2>
+    <ol class="nav  breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">The Board</a></li>
+        <li class="current"><a href="#">Directors</a></li>
+    </ol>
+
+    <ol class="nav  breadcrumb--path">
+        <li class="breadcrumb__root"><a href="#">inuit.css</a></li>
+        <li><a href="#">inuit.css</a></li>
+        <li><a href="#">partials</a></li>
+        <li class="current"><a href="#">objects</a></li>
+    </ol>
+
+    <ol class="nav  breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li data-breadcrumb="|"><a href="#">About</a></li>
+        <li data-breadcrumb="|"><a href="#">The Board</a></li>
+        <li data-breadcrumb="|" class="current"><a href="#">Directors</a></li>
+    </ol>
+
+    <h2>Forms</h2>
+
+    <form action=#>
+
+        <fieldset>
+
+            <legend>Personal details</legend>
+
+            <ul class="form-fields">
+
+                <li>
+                    <label for="first-name">First name</label>
+                    <input type=text class="text-input" id="first-name">
+                </li>
+
+                <li>
+                    <label for="last-name">Last name</label>
+                    <input type=text class="text-input" id="last-name">
+                </li>
+
+                <li>
+                    <label for=email>Email</label>
+                    <input type=email class="text-input" id=email>
+                    <small class="extra-help">.edu emails only</small>
+                </li>
+
+            </ul>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Contacting you</legend>
+
+            <p>We may contact you from time to time&hellip;</p>
+
+            <ul class="form-fields">
+
+                <li>
+                    <span class=label>How would you like to be contacted?</span>
+
+                    <ul class="check-list">
+                        <li>
+                            <input type=checkbox id="by-email"> <label for="by-email">By email</label>
+                        </li>
+                        <li>
+                            <input type=checkbox id="by-post"> <label for="by-post">By post</label>
+                        </li>
+                        <li>
+                            <input type=checkbox id="by-pigeon"> <label for="by-pigeon">By carrier pigeon</label>
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li>
+                    <span class=label>How often would you like to be contacted?</span>
+
+                    <ul class="check-list  multi-list  two-cols">
+                        <li>
+                            <input type="radio" name="frequency" id="weekly"> <label for="weekly">Weekly</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="frequency" id="daily"> <label for="daily">Daily</label>
+                        </li>
+                    </ul>
+
+                </li>
+
+            </ul>
+
+        </fieldset>
+
+    </form>
+
+    <h2>Buttons</h2>
+
+    <p>
+        <a href=# class="btn  btn--login foo">Log in</a>
+    </p>
+
+    <p>
+        <a href=# class="btn  btn--full  btn--login foo">Log in</a>
+    </p>
+
+    <h2>Regular grids</h2>
+
+    <div class=grid>
+
+        <div class="grid__item  one-whole">
+            <p class=demo-block>Foo</p>
+        </div><!--
+
+     --><div class="grid__item  one-half">
+            <p class=demo-block>Foo</p>
+        </div><!--
+
+     --><div class="grid__item  one-quarter">
+            <p class=demo-block>Bar</p>
+        </div><!--
+
+     --><div class="grid__item  one-quarter">
+            <p class=demo-block>Baz</p>
+        </div><!--
+
+     --><div class="grid__item  one-third">
+            <p class=demo-block>Foo</p>
+        </div><!--
+
+     --><div class="grid__item  two-thirds">
+            <p class=demo-block>Bar</p>
+        </div><!--
+
+     --><div class="grid__item  one-half">
+            <p class=demo-block>Foo</p>
+        </div><!--
+
+     --><div class="grid__item  one-half">
+
+            <div class=grid>
+
+                <div class="grid__item  one-half">
+                    <p class=demo-block>Foo</p>
+                </div><!--
+
+             --><div class="grid__item  one-half">
+                    <p class=demo-block>Bar</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item  one-whole">
+            <p class=demo-block>Foo</p>
+        </div>
+
+    </div>
+
+    <h2>Nav</h2>
+
+    <ul class=nav>
+        <li><a href=#>Home</a></li>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Portfolio</a></li>
+        <li><a href=#>Contact</a></li>
+    </ul>
+
+    <ul class="nav  nav--stacked">
+        <li><a href=#>Home</a></li>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Portfolio</a></li>
+        <li><a href=#>Contact</a></li>
+    </ul>
+
+    <ul class="nav  nav--banner">
+        <li><a href=#>Home</a></li>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Portfolio</a></li>
+        <li><a href=#>Contact</a></li>
+    </ul>
+
+    <ul class="nav  nav--block  foo">
+        <li><a href=#>Home</a></li><!--
+     --><li><a href=#>About</a></li><!--
+     --><li><a href=#>Portfolio</a></li><!--
+     --><li><a href=#>Contact</a></li>
+    </ul>
+
+    <ul class="nav  nav--fit  foo">
+        <li><a href=#>Home</a></li>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Portfolio</a></li>
+        <li><a href=#>Contact</a></li>
+    </ul>
+
+    <ul class="nav  nav--keywords">
+        <li><a href=#>Home</a></li>
+        <li><a href=#>About</a></li>
+        <li><a href=#>Portfolio</a></li>
+        <li><a href=#>Contact</a></li>
+    </ul>
+
+    <h2>Columns</h2>
+
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+    <p class="text-cols--3">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+    <p class="text-cols--2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+    <h2>Media</h2>
+
+    <div class=media>
+        <img src=http://placekitten.com/96/96 alt="" class=media__img>
+        <p class=media__body>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class=media>
+        <img src=http://placekitten.com/96/96 alt="" class=media__img--rev>
+        <p class=media__body>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+
+    <h1 id="MDN">MDN</h1>
+
+    <h2>nav</h2>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h2>article/aside</h2>
+
+    <header>
+      a logo
+    </header>
+    <footer>
+      Some copyright info or perhaps some author info for an &lt;article&gt;?
+    </footer>
+
+    <article>
+      <h4>A really awesome article</h4>
+      <p>
+        The HTML article element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable, e.g., in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+      </p>
+    </article>
+    <aside>
+      <p>Some content related to an &lt;article&gt;</p>
+    </aside>
+
+    <h2>figure/figcaption</h2>
+
+    <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MD Logo" />
+
+    <figure>
+      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="An awesome picture">
+    </figure>
+
+    <figure>
+      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="An awesome picture">
+      <figcaption>Caption for the awesome picture</figcaption>
+    </figure>
+
+
+    <h2>others</h2>
+
+    <audio controls="controls" src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg">
+      Your browser does not support the <code>audio</code> element.
+      <track kind="captions" src="foo.en.vtt" srclang="en" label="English">
+      <track kind="captions" src="foo.sv.vtt" srclang="sv" label="Svenska">
+    </audio>
+
+    <p>
+      <p>New Products</p>
+      <ul>
+       <li><data value="3967381398">Mini Ketchup</data></li>
+       <li><data value="3967381399">Jumbo Ketchup</data></li>
+       <li><data value="3967381400">Mega Jumbo Ketchup</data></li>
+      </ul>
+    </p>
+
+    <details>
+      <summary>Some details - Click Here</summary>
+      <p>More info about the details.</p>
+    </details>
+
+    <p><dfn id="def-internet">The Internet</dfn> is a global system of interconnected networks that use the Internet Protocol Suite (TCP/IP) to serve billions of users worldwide.</p>
+
+    <dl>
+      <!-- Define "World-Wide Web" and reference definition for "the Internet" -->
+      <dt>
+        <dfn>
+          <abbr title="World-Wide Web">WWW</abbr>
+        </dfn>
+      </dt>
+      <dd>The World-Wide Web (WWW) is a system of interlinked hypertext documents accessed on <a href="#def-internet">the Internet</a>.</dd>
+    </dl>
+
+    <hr>
+
+  </main>
+</body>
+</html>

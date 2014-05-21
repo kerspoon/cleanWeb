@@ -1,0 +1,10 @@
+{
+  "name": "cleanWeb",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "bower": "~1.2.8",
+    "grunt-contrib-sass": "~0.6.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "clean-web",
+  "version": "0.0.1",
+  "dependencies": {
+    "inuit.css": "~5.0.0"
+  }
+}

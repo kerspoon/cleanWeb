@@ -1,0 +1,55 @@
+
+
+/* ............................... TypePlate ............................... */
+
+body { word-wrap: break-word; }
+pre code { word-wrap: normal; }
+body { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; -o-hyphens: auto; hyphens: auto; }
+abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var, xmp { -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; -o-hyphens: none; hyphens: none; }
+h1, h2, h3, h4, h5, h6 { text-rendering: optimizeLegibility; }
+
+h1, h2, h3, h4, h5, h6 { color: $heading-text-color; }
+body { color: $base-text-color; }
+
+/* .......................... PracticalTypography .......................... */
+
+/*
+ The breakpoints for the media queries need to be set by hand after you have 
+ chosen your font and the width of the container that will hold the body 
+ text. It must be set so that you have an average line length of 45-90 
+ characters, including spaces. Here is a test:
+
+ abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefgh
+*/
+
+@media all {
+    html { font-size: 20px }
+}
+@media all and (max-width:690px) {
+    html { font-size: 18px }
+}
+@media all and (max-width:640px) {
+    html { font-size: 17px }
+}
+@media all and (max-width:600px) {
+    html { font-size: 16px }
+}
+@media all and (max-width:570px) {
+    html { font-size: 15px }
+}
+@media all and (max-width:530px) {
+    html { font-size: 14px }
+}
+
+main {
+  padding: 0;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  max-width:700px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  border-top: solid 1px #383838;
+}
